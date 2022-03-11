@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 import Meal from '../Meal/Meal';
-
+import './Restaurant.css'
 const Restaurant = () => {
 
  const [searchText, setSearchText]=useState('')
@@ -24,11 +25,16 @@ const Restaurant = () => {
             onChange={handleSearch}
             type="text" placeholder='Search your meals here' />
        
-       <div>
-           {
-               meals.map(meal=><Meal meal={meal} key={meal.idMeal}></Meal>)
-           }
-       </div>
+     
+            <Container>
+            <Row xs={1} md={3} className="g-4">
+                    {
+                     meals.map(meal=><Meal meal={meal} key={meal.idMeal}></Meal>)
+                     }
+                </Row>
+            </Container>
+               
+      
        
         </div>
     );
