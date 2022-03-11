@@ -1,0 +1,10 @@
+.meal a{
+    text-decoration: none;
+    background-color: tomato;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

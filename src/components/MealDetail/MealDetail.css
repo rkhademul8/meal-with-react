@@ -1,0 +1,7 @@
+.details a{
+    text-decoration: none;
+    background-color: tomato;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}

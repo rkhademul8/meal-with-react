@@ -21,9 +21,11 @@ const Restaurant = () => {
     }
     return (
         <div>
+            <div className='seacrh-section'>
             <input             
             onChange={handleSearch}
             type="text" placeholder='Search your meals here' />
+            </div>
        
      
             <Container>

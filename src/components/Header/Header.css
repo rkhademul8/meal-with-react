@@ -1,0 +1,15 @@
+.header-section{
+    background-color: rgb(77, 74, 74);
+    padding: 10px 0px;
+}
+.header-section a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+.header-section a:hover{
+    background-color: rgb(117, 124, 124);
+    padding: 10px 10px;
+}
